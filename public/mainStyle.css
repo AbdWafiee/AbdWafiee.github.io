@@ -1,0 +1,110 @@
+/*
+  Theme: Personal website theme.
+  Description: Overall styling for my personal website. Pertains to minimalist and responsive design.
+  Author: Abd Wafiee Abd Wahab
+  Tags: Website, Responsive Design, Mobile, Desktop
+*/
+
+/*General Style*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/*navbar*/
+.navbar {
+  font-family: 'Lato', sans-serif;
+  background-color: #C5C1C0;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+
+.nav.navbar-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    float: none;
+  }
+}
+
+.nav li a {
+  color: black;
+}
+
+.nav li a:focus, .nav li a:hover {
+  text-decoration: none;
+  background-color: rgba(238, 238, 238, 0);
+  color: white;
+}
+
+ /*navbar underline slide animation*/
+.underline-slide {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 2px;
+}
+
+.underline-slide:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 2px;
+  width: 0;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+}
+
+.underline-slide:hover:after {
+  width: 100%;
+  background: white;
+}
+
+/*Main Body*/
+.titleDiv {
+  height: 100%;
+  margin: 0;
+  background-color: #C5C1C0;
+}
+
+.titleDiv img {
+  margin-top: 60px;
+}
+
+.button {
+  background: transparent;
+  color: #F7CE3E;
+  border-color: #F7CE3E;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: solid #F7CE3E;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+
+.button:hover, .button:active, .button:focus {
+  color: white;
+  border-color: white;
+  text-decoration: none;
+}
+
+.aboutDiv {
+  margin: 0;
+  height: 100%;
+  background-color: #1A2930;
+  color: white;
+  text-align: center;
+}
