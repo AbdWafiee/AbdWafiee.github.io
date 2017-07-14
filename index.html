@@ -12,14 +12,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--<script src="./js/content_animate.js"></script>-->
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
     <link rel="stylesheet" href="public/mainStyle.css">
   </head>
 
   <body>
-    <!--navbar-->
+    <!--Navbar-->
     <nav class="navbar navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -33,39 +35,254 @@
           <ul class="nav navbar-nav">
             <li class="underline-slide"><a href="#about">About Me</a></li>
             <li class="underline-slide"><a href="#skills">Skills</a></li>
-            <li class="underline-slide"><a href="#portfolio">Portfolio</a></li>
+            <li class="underline-slide"><a href="#projects">Projects</a></li>
             <li class="underline-slide"><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <!--Main body-->
+    <!--Title-->
     <div class="titleDiv container-fluid text-center">
       <img src="./img/Title_v2.png" class="img-responsive center-block">
       <a href="#about" class="button">Learn More</a>
     </div>
+
+    <!--About Section-->
     <div class="aboutDiv container-fluid" id="about">
-      <!--
-      <div class="row">
-        <div class="me col-xs-12 col-sm-6 col-md-6 col-lg-6">
-          <h1>Hi, I'm Abd Wafiee Abd Wahab</h1>
+      <div class="row aboutMe">
+        <div class="me col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+          <h1>Hi, I'm Wafiee</h1>
           <p>
             Web development and web design is my passion and I hope to find a career in the field. Specializing in front-end web development, I take pride in my ability to design and develop responsive websites, and innovate based on current or new web technologies and frameworks.
           </p>
           <p>
-            Self-motivated, organized, and driven, I intend to take my web development skills to the next level and I am eager to learn new technologies along the way.
+            Self-motivated, organized, and driven, I intend to take my web development skills to the next level and I am eager to learn new technologies and skills along the way.
           </p>
         </div>
       </div>
+      <div class="row slogan">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <img src="./img/design.png" width="200" height="200" alt="design icon">
+          <p>In order to better visualize a website and its components, I like to begin with a wireframe. Regardless of purpose, I prefer to create websites with modern aesthetics.</p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <img src="./img/develop.png"  width="200" height="200" alt="develop icon">
+          <p>Using front-end web frameworks and libraries such as Boostrap, jQuery, and P5.js, I am able to create responsive and interactive websites. </p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <img src="./img/innovate.png" width="200" height="200" alt="innovate icon">
+          <p>With the growing landscape of web-frameworks, there is always something new to learn. Whether it's intended for front-end development or back-end development, I can adapt and learn.</p>
+        </div>
+      </div>
+      <hr>
+      <div class="container-fluid education">
+        <h1>Education</h1>
+        <div class="row degree">
+          <div class="school col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <h4>American University <small>2013 - 2017</small></h4>
+          </div>
+          <div class="description col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <p>
+              Bachelors of Science, Computer Science.
+              <br></br>
+              Minor in marketing: With focus on internet marketing and marketing research.
+              <br></br>
+              Projects: <a href="#projects">ApartmentViewer VR</a>, <a href="#projects">HomeViewer.</a>
+          </p>
+          </div>
+        </div>
+        <div class="row highSchool">
+          <div class="school col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <h4>British School of Washington <small>2009 - 2013</small></h4>
+          </div>
+          <div class="description col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <p>
+              2009 - 2011: IGCSE.
+              <br></br>
+              2011 - 2013: IB Diploma.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-  -->
-    <div class="skillsDiv container-fluid" id="skills"></div>
-    <div class="portfolioDiv container-fluid"></div>
-    <div class="contactDiv container-fluid" id="contact"></div>
+
+    <!--Skills Section-->
+    <div class="skillsDiv container-fluid" id="skills">
+      <div class="row">
+        <div class="skills col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <div class="container">
+            <h1>Skills</h1>
+            <div class="row row1">
+              <div class="icon col-xs-3 col-sm-6 col-md-6 col-lg-3">
+                <img src="./img/skills/html5.svg" height="100" width="100" alt="HTML5 icon" class="img-responsive">
+                <p>HTML(5)</p>
+                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+              </div>
+              <div class="icon col-xs-3 col-sm-6 col-md-6 col-lg-3">
+                <img src="./img/skills/css3.svg" height="100" width="100" alt="CSS3 icon" class="img-responsive">
+                <p>CSS(3)</p>
+                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+              </div>
+              <div class="icon col-xs-3 col-sm-6 col-md-6 col-lg-3">
+                <img src="./img/skills/javascript.svg" height="100" width="100" alt="Javascript icon" class="img-responsive">
+                <p>Javascript</p>
+                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span>
+              </div>
+              <div class="icon col-xs-3 col-sm-6 col-md-6 col-lg-3">
+                <img src="./img/skills/bootstrap.svg" height="100" width="100" alt="Bootstrap icon" class="img-responsive">
+                <p>Bootstrap</p>
+                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+              </div>
+            </div>
+            <div class="row row2">
+              <div class="icon col-xs-3 col-sm-6 col-md-6 col-lg-3">
+                <img src="./img/skills/jquery.svg" height="100" width="100" alt="jQuery icon" class="img-responsive">
+                <p>jQuery</p>
+                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span>
+              </div>
+              <div class="icon col-xs-3 col-sm-6 col-md-6 col-lg-3">
+                <img src="./img/skills/csharp.svg" height="100" width="100" alt="CSharp icon" class="img-responsive">
+                <p>C#</p>
+                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+              </div>
+              <div class="icon col-xs-3 col-sm-6 col-md-6 col-lg-3">
+                <img src="./img/skills/p5js.svg" height="100" width="100" alt="P5JS icon" class="img-responsive">
+                <p>p5.js</p>
+                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+              </div>
+              <div class="icon col-xs-3 col-sm-6 col-md-6 col-lg-3">
+                <img src="./img/skills/express.svg" height="100" width="100" alt="Express icon" class="img-responsive">
+                <p>Express</p>
+                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+              </div>
+            </div>
+            <div class="row row3">
+              <div class="icon col-xs-3 col-sm-6 col-md-6 col-lg-3">
+                <img src="./img/skills/heroku.svg" height="100" width="100" alt="Heroku icon" class="img-responsive">
+                <p>Heroku</p>
+                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+              </div>
+              <div class="icon col-xs-3 col-sm-6 col-md-6 col-lg-3">
+                <img src="./img/skills/nodejs.svg" height="100" width="100" alt="NodeJS icon" class="img-responsive">
+                <p>Node.js</p>
+                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+              </div>
+              <div class="icon col-xs-3 col-sm-6 col-md-6 col-lg-3">
+                <img src="./img/skills/mysql.svg" height="100" width="100" alt="MySQL icon" class="img-responsive">
+                <p>MySQL</p>
+                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+              </div>
+              <div class="icon col-xs-3 col-sm-6 col-md-6 col-lg-3">
+                <img src="./img/skills/php.svg" height="100" width="100" alt="PHP icon" class="img-responsive">
+                <p>PHP</p>
+                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="software col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <div class="container">
+            <h1>Tools</h1>
+            <div class="row row1">
+              <div class="icon col-xs-3 col-sm-6 col-md-6 col-lg-3">
+                <img src="./img/tools/atom.svg" height="100" width="100" alt="Atom icon" class="img-responsive">
+                <p>Atom</p>
+                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+              </div>
+              <div class="icon col-xs-3 col-sm-6 col-md-6 col-lg-3">
+                <img src="./img/tools/visualstudio.svg" height="100" width="100" alt="VisualStudio icon" class="img-responsive">
+                <p>Visual Studio</p>
+                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+              </div>
+              <div class="icon col-xs-3 col-sm-6 col-md-6 col-lg-3">
+                <img src="./img/tools/git.svg" height="100" width="100" alt="Git icon" class="img-responsive">
+                <p>Git</p>
+                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span>
+              </div>
+              <div class="icon col-xs-3 col-sm-6 col-md-6 col-lg-3">
+                <img src="./img/tools/github.svg" height="100" width="100" alt="GitHub icon" class="img-responsive">
+                <p>GitHub</p>
+                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span>
+              </div>
+            </div>
+            <div class="row row2">
+              <div class="icon col-xs-3 col-sm-6 col-md-6 col-lg-3">
+                <img src="./img/tools/inkscape.svg" height="100" width="100" alt="Inkscape icon" class="img-responsive">
+                <p>Inkscape</p>
+                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+              </div>
+              <div class="icon col-xs-3 col-sm-6 col-md-6 col-lg-3">
+                <img src="./img/tools/gimp.svg" height="100" width="100" alt="Gimp icon" class="img-responsive">
+                <p>GIMP</p>
+                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+              </div>
+              <div class="icon col-xs-3 col-sm-6 col-md-6 col-lg-3">
+                <img src="./img/tools/blender.svg" height="100" width="100" alt="Blender icon" class="img-responsive">
+                <p>Blender</p>
+                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+              </div>
+              <div class="icon icon col-xs-3 col-sm-6 col-md-6 col-lg-3">
+                <img src="./img/tools/unity.svg" height="100" width="100" alt="Unity icon" class="img-responsive">
+                <p>Unity</p>
+                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Projects Section-->
+    <div class="projectsDiv container-fluid" id="projects">
+      <h1>Projects</h1>
+      <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+        </div>
+      </div>
+    </div>
+
+    <!--Contact Section-->
+    <div class="contactDiv container-fluid text-center" id="contact">
+      <h1>Contact</h1>
+      <h4>Feel free to contact me!</h4>
+      <div class="row contactRow">
+        <div class="myInfo col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <p>Abd Wafiee Abd Wahab</p>
+          <p><span class="glyphicon glyphicon-map-marker"></span> Bandar Seri Begawan, Brunei</p>
+          <p>Email: a.wafiee@gmail.com</p>
+          <p>Github: <a href="https://github.com/abdwafiee">AbdWafiee</a></p>
+        </div>
+        <div class="contactForm col-xs-12 col-sm-12 col-md-8 col-lg-8">
+          <form action="https://formspree.io/a.wafiee@gmail.com" method="POST">
+            <div class="row">
+              <div class="form-group col-xs-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <input class="form-control "type="text" name="name" placeholder="Name" required>
+              </div>
+              <div class="form-group col-xs-6 col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <input class="form-control" type="email" name="_replyto" placeholder="Email" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <textarea class="form-control" name="message" rows="8" placeholder="Your message"></textarea>
+              </div>
+            </div>
+            <input class="button pull-right" type="submit" value="Send">
+          </form>
+        </div>
+      </div>
+    </div>
 
     <!--Footer-->
     <footer class="container-fluid">
+      <div class="container">
+        <p>&copy; Copyright Abd Wafiee Abd Wahab</p>
+      </div>
     </footer>
   </body>
 </html>

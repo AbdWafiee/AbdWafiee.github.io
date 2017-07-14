@@ -15,11 +15,16 @@
 html, body {
   height: 100%;
   width: 100%;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+body {
+  position: relative;
 }
 
 /*navbar*/
 .navbar {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif !important;
   background-color: #C5C1C0;
   margin: 0;
   border: 0;
@@ -41,7 +46,7 @@ html, body {
 }
 
 .nav li a {
-  color: black;
+  color: #0A1612;
 }
 
 .nav li a:focus, .nav li a:hover {
@@ -102,9 +107,212 @@ html, body {
   text-decoration: none;
 }
 
+/*-----------------About Section-----------------*/
+
 .aboutDiv {
   margin: 0;
+  padding-top: 70px;
+  padding-bottom: 70px;
   background-color: #1A2930;
   color: white;
+  text-align: center;
+  font-weight: 400;
+}
+
+.aboutDiv h1, .skillsDiv h1, .education h1, .projectsDiv h1, .contactDiv h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+.aboutMe {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.slogan {
+  padding-top: 70px;
+  padding-bottom: 10px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slogan p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+  border-top: 1px solid #F7CE3E;
+  opacity: 0.5;
+  width: 80%;
+}
+
+.education {
+  text-align: left;
+  width: 80%;
+}
+
+.education .row {
+  padding-bottom: 30px;
+}
+
+.education h1 {
+  margin-bottom: 50px;
+}
+
+.education h4 {
+  margin-top: 0;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.education small {
+  color: #C5C1C0;
+}
+
+.degree .description, .highSchool .description {
+  border-left-style: solid;
+  border-width: thin;
+  border-color: #F7CE3E;
+}
+
+.degree .description a {
+  text-decoration: none;
+  color: white;
+}
+
+/*-----------------Skills Section-----------------*/
+.skillsDiv {
+  font-weight: 400;
+}
+
+.skillsDiv .row {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+}
+
+.skillsDiv .container {
+  width: 70%;
+}
+
+.skillsDiv .skills, .skillsDiv .software {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+    color: white;
+}
+
+.skillsDiv .skills {
+  background-color: #F7CE3E;
+}
+
+.skillsDiv .software {
+  background-color: #C5C1C0;
+}
+
+.skillsDiv h1 {
+  margin-bottom: 50px;
+}
+
+.skillsDiv p, .skillsDiv img {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #0A1612;
+}
+
+.skillsDiv p {
+  border-bottom: 1px solid #1A2930;
+}
+
+.skillsDiv span {
+  color: #0A1612;
+  margin-bottom: 60px;
+}
+
+/*-----------------Projects Section-----------------*/
+.projectsDiv {
+  margin: 0;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #1A2930;
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  height: 100%;
+}
+
+/*-----------------Contact Section-----------------*/
+.contactDiv {
+  margin: 0;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #C5C1C0;
+  color: white;
+  text-align: center;
+  font-weight: 400;
+}
+
+.contactDiv h1 {
+  margin-bottom: 10px;
+}
+
+.contactDiv h4 {
+  margin-bottom: 50px;
+}
+
+.contactDiv .contactRow {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.contactDiv .myInfo {
+  text-align: left;
+}
+
+.myInfo a {
+  text-decoration: underline;
+  color: #1A2930;
+}
+
+.contactDiv .contactForm {
+  color: #1A2930;
+}
+
+.form-control {
+  border-color: #F7CE3E;
+  background-color: white;
+  color: #1A2930;
+}
+
+.contactDiv textarea {
+  resize: none;
+}
+
+/*-----------------Footer-----------------*/
+
+footer {
+  background-color: #F7CE3E;
+}
+
+footer .container {
+  color: #0A1612;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 50px auto 50px auto;
   text-align: center;
 }
