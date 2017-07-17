@@ -52,6 +52,9 @@ body {
 .nav li a:focus, .nav li a:hover {
   text-decoration: none;
   background-color: rgba(238, 238, 238, 0);
+}
+
+.nav li a:hover {
   color: white;
 }
 
@@ -125,10 +128,13 @@ body {
   transition: all 0.5s;
 }
 
-.button:hover, .button:active, .button:focus {
+.button:hover, .button:focus {
+  text-decoration: none;
+}
+
+.button:hover {
   color: white;
   border-color: white;
-  text-decoration: none;
 }
 
 /*-----------------About Section-----------------*/
@@ -314,6 +320,7 @@ hr {
 
 .contactDiv .myInfo {
   text-align: left;
+  margin-bottom: 20px;
 }
 
 .myInfo a {
@@ -333,6 +340,11 @@ hr {
 
 .contactDiv textarea {
   resize: none;
+}
+
+.contactBtn {
+  color: #F7CE3E;
+  border: solid #F7CE3E;
 }
 
 /*-----------------Footer-----------------*/
