@@ -8,12 +8,15 @@ $(document).ready(function() {
       //prevent default actions
       e.preventDefault();
 
+      //cache the current section
       var hash = this.hash;
 
+      //scroll to the referenced section
       $root.animate({
         scrollTop: $(hash).offset().top
       }, 1000, function() {
-          window.location.hash = hash;
+          //removes anchor from url
+          window.location.hash = "";
         }
       );
     }
