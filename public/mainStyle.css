@@ -251,7 +251,15 @@ hr {
   color: white;
   text-align: center;
   font-weight: 400;
-  height: 100%;
+}
+
+.projectsDiv .container {
+  width: 80%;
+}
+
+.projectsDiv .container h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
 }
 
 /*-----------------Contact Section-----------------*/

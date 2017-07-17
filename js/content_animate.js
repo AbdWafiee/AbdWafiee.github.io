@@ -1,11 +1,21 @@
 $(document).ready(function() {
-  
-  // scrolling to the top of the page
-  $(".to-Top").click(function(e) {
-    // animates a smooth scroll to the top of the page
-    $('html, body').animate({scrollTop: 0}, 500);
 
-    //prevents default action to jump to top of page
-    e.preventDefault();
+  //Smooth scrolling
+  var $root = $('html, body');
+  $(".navbar a, .titleDiv a").on('click', function(e) {
+    if (this.hash !== "") {
+
+      //prevent default actions
+      e.preventDefault();
+
+      var hash = this.hash;
+
+      $root.animate({
+        scrollTop: $(hash).offset().top
+      }, 1000, function() {
+          window.location.hash = hash;
+        }
+      );
+    }
   });
 });
