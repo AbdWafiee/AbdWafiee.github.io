@@ -22,6 +22,10 @@ body {
   position: relative;
 }
 
+p {
+  font-size: 15px;
+}
+
 /*navbar*/
 .navbar {
   font-family: 'Lato', sans-serif !important;
@@ -135,6 +139,12 @@ body {
 .button:hover {
   color: white;
   border-color: white;
+}
+
+.me p {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*-----------------About Section-----------------*/
