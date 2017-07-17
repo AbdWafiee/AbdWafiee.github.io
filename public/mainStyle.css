@@ -15,7 +15,6 @@
 html, body {
   height: 100%;
   width: 100%;
-  font-family: 'Open Sans', sans-serif !important;
 }
 
 body {
@@ -23,6 +22,8 @@ body {
 }
 
 p {
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 300;
   font-size: 15px;
 }
 
