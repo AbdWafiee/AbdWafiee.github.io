@@ -55,6 +55,15 @@ body {
   color: white;
 }
 
+.navbar-toggle {
+  padding: 8px 10px;
+}
+
+.navbar-toggle span{
+  background-color: white;
+  height: 3px !important;
+}
+
  /*navbar underline slide animation*/
 .underline-slide {
   display: inline-block;
