@@ -353,8 +353,8 @@ hr {
 }
 
 .contactBtn {
-  color: #F7CE3E;
-  border-color: #F7CE3E;
+  color: #F7CE3E !important;
+  border-color: #F7CE3E !important;
 }
 
 /*-----------------Footer-----------------*/
