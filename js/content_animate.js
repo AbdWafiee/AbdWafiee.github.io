@@ -2,7 +2,7 @@ $(document).ready(function() {
 
   //Smooth scrolling
   var $root = $('html, body');
-  $(".navbar a, .titleDiv a").on('click', function(e) {
+  $(".navbar a, .titleDiv a, .education a").on('click', function(e) {
     if (this.hash !== "") {
 
       //prevent default actions
