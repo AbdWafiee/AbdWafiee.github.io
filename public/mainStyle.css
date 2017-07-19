@@ -117,8 +117,8 @@ p {
 }
 
 .titleDiv img {
-  margin-top: 60px;
-  margin-bottom: 93px;
+  margin-top: 43px;
+  margin-bottom: 40px;
 }
 
 .button {
@@ -134,6 +134,7 @@ p {
 
 .button:hover, .button:focus {
   text-decoration: none;
+  color: #0A1612;
 }
 
 .button:hover {
@@ -349,11 +350,6 @@ hr {
 
 .contactDiv textarea {
   resize: none;
-}
-
-.contactBtn {
-  color: #F7CE3E;
-  border: solid #F7CE3E;
 }
 
 /*-----------------Footer-----------------*/
