@@ -352,6 +352,11 @@ hr {
   resize: none;
 }
 
+.contactBtn {
+  color: #F7CE3E;
+  border-color: #F7CE3E;
+}
+
 /*-----------------Footer-----------------*/
 /*
 footer {
