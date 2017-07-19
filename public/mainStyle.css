@@ -246,18 +246,18 @@ hr {
   width: 70%;
 }
 
-.skillsDiv .skills, .skillsDiv .software {
+.skills, .software {
     padding-top: 70px;
     padding-bottom: 70px;
     text-align: center;
     color: white;
 }
 
-.skillsDiv .skills {
+.skills {
   background-color: #F7CE3E;
 }
 
-.skillsDiv .software {
+.software {
   background-color: #C5C1C0;
 }
 
@@ -288,19 +288,100 @@ hr {
   margin: 0;
   padding-top: 70px;
   padding-bottom: 70px;
+  padding-left: 0;
+  padding-right: 0;
   background-color: #1A2930;
   color: white;
   text-align: center;
   font-weight: 400;
+  width: 100%;
 }
 
-.projectsDiv .container {
-  width: 80%;
+.projectsDiv .container-fluid {
+  padding: 0;
+}
+
+.projectsDiv .row {
+  padding: 0;
+  margin: 0;
 }
 
 .projectsDiv .container h1 {
   font-family: 'Open Sans', sans-serif;
   font-size: 30px;
+}
+
+.image {
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.image img {
+  width: 100%;
+  padding: 0;
+}
+
+/*projects display. Credits to Mary Lou, https://tympanus.net/codrops/2014/06/19/ideas-for-subtle-hover-effects/*/
+figure.effect-alpha figcaption::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: -webkit-linear-gradient(top, rgba(72,76,97,0) 0%, rgba(81, 135, 160, 1) 75%);
+	background: linear-gradient(to bottom, rgba(72,76,97,0) 0%, rgba(81, 135, 160, 1) 75%);
+	content: '';
+	opacity: 0;
+	-webkit-transform: translate3d(0,50%,0);
+	transform: translate3d(0,50%,0);
+}
+
+figure.effect-alpha h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+  opacity: 0;
+	-webkit-transition: -webkit-transform 0.35s, color 0.35s;
+	transition: transform 0.35s, color 0.35s;
+	-webkit-transform: translate3d(0,-50%,0);
+	transform: translate3d(0,-50%,0);
+}
+
+figure.effect-alpha figcaption::before,
+figure.effect-alpha p {
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-alpha p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 2em;
+	width: 100%;
+	opacity: 0;
+	-webkit-transform: translate3d(0,10px,0);
+	transform: translate3d(0,10px,0);
+}
+
+figure.effect-alpha:hover h2 {
+	color: white;
+  opacity: 1;
+	-webkit-transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
+	transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
+}
+
+figure.effect-alpha:hover figcaption::before ,
+figure.effect-alpha:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
 }
 
 /*-----------------Contact Section-----------------*/
@@ -322,13 +403,13 @@ hr {
   margin-bottom: 50px;
 }
 
-.contactDiv .contactRow {
+.contactRow {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
 }
 
-.contactDiv .myInfo {
+.myInfo {
   text-align: left;
   margin-bottom: 20px;
 }
@@ -338,7 +419,7 @@ hr {
   color: #1A2930;
 }
 
-.contactDiv .contactForm {
+.contactForm {
   color: #1A2930;
 }
 
