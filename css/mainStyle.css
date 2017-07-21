@@ -145,7 +145,7 @@ p {
   background-color: #1A2930;
 }
 
-.aboutDiv h1, .skillsDiv h1, .education h1, .projectsDiv h1, .contactDiv h1 {
+.aboutDiv h1, .skillsDiv h1, .projectsDiv h1, .contactDiv h1 {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   margin-bottom: 30px;
@@ -191,7 +191,10 @@ hr {
   padding-bottom: 30px;
 }
 
-.education h1 {
+.education h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 40px;
   margin-bottom: 50px;
 }
 
@@ -290,6 +293,13 @@ hr {
   margin: 0;
 }
 
+.projectsDiv h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
 .image {
   padding: 0;
   position: relative;
@@ -316,7 +326,7 @@ figure.effect-alpha figcaption::before {
 	transform: translate3d(0,50%,0);
 }
 
-figure.effect-alpha h1 {
+figure.effect-alpha h2 {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
 	position: absolute;
@@ -349,7 +359,7 @@ figure.effect-alpha p {
 	transform: translate3d(0,10px,0);
 }
 
-figure.effect-alpha:hover h1 {
+figure.effect-alpha:hover h2 {
 	color: white;
   opacity: 1;
 	-webkit-transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
