@@ -102,8 +102,8 @@ p {
 }
 
 .titleDiv img {
-  margin-top: 43px;
-  margin-bottom: 40px;
+  margin-top: 9.5em;
+  margin-bottom: 1.5em;
 }
 
 .button {
@@ -133,12 +133,18 @@ p {
   margin-right: auto;
 }
 
+@media (max-width: 768px) {
+  .me p {
+    width: 100%;
+  }
+}
+
 /*-----------------About Section-----------------*/
 
 .aboutDiv {
   margin: 0;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 2em;
+  padding-bottom: 1em;
   color: white;
   text-align: center;
   font-weight: 400;
@@ -148,7 +154,7 @@ p {
 .aboutDiv h1, .skillsDiv h1, .projectsDiv h1, .contactDiv h1 {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  margin-bottom: 30px;
+  margin-bottom: 1em;
   font-size: 40px;
 }
 
@@ -159,21 +165,27 @@ p {
 }
 
 .slogan {
-  padding-top: 70px;
-  padding-bottom: 10px;
+  padding-top: 3em;
+  padding-bottom: 0.5em;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
 
+@media (max-width: 766px) {
+  .slogan, aboutMe {
+    width: 100%;
+  }
+}
+
 .slogan p {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 1.5em;
+  margin-bottom: 2.5em;
 }
 
 hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 2em;
+  margin-bottom: 2.5em;
   margin-left: auto;
   margin-right: auto;
   border: 0;
@@ -188,14 +200,14 @@ hr {
 }
 
 .education .row {
-  padding-bottom: 30px;
+  padding-bottom: 2.5em;
 }
 
 .education h2 {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 40px;
-  margin-bottom: 50px;
+  margin-bottom: 1em;
 }
 
 .education h4 {
@@ -234,11 +246,17 @@ hr {
   width: 70%;
 }
 
+@media (max-width: 768px) {
+  .skillsDiv .container {
+    width: 100%;
+  }
+}
+
 .skills, .software {
-    padding-top: 70px;
-    padding-bottom: 70px;
-    text-align: center;
-    color: white;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  text-align: center;
+  color: white;
 }
 
 .skills {
@@ -250,7 +268,7 @@ hr {
 }
 
 .skillsDiv h1 {
-  margin-bottom: 50px;
+  margin-bottom: 1.5em;
 }
 
 .skillsDiv p, .skillsDiv img {
@@ -268,13 +286,13 @@ hr {
 
 .skillsDiv span {
   color: #0A1612;
-  margin-bottom: 60px;
+  margin-bottom: 3em;
 }
 
 /*-----------------Projects Section-----------------*/
 .projectsDiv {
   margin: 0;
-  padding-top: 70px;
+  padding-top: 2em;
   padding-left: 0;
   padding-right: 0;
   background-color: #1A2930;
@@ -296,7 +314,6 @@ hr {
 .projectsDiv h2 {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  margin-bottom: 30px;
   font-size: 40px;
 }
 
@@ -359,6 +376,15 @@ figure.effect-alpha p {
 	transform: translate3d(0,10px,0);
 }
 
+@media (max-width: 700px) {
+  figure.effect-alpha p {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0;
+    padding-bottom: 0.5em;
+  }
+}
+
 figure.effect-alpha:hover h2 {
 	color: white;
   opacity: 1;
@@ -376,8 +402,8 @@ figure.effect-alpha:hover p {
 /*-----------------Contact Section-----------------*/
 .contactDiv {
   margin: 0;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 2em;
+  padding-bottom: 2em;
   color: white;
   text-align: center;
   font-weight: 400;
@@ -385,11 +411,11 @@ figure.effect-alpha:hover p {
 }
 
 .contactDiv h1 {
-  margin-bottom: 10px;
+  margin-bottom: 0.5em;
 }
 
 .contactDiv h4 {
-  margin-bottom: 50px;
+  margin-bottom: 3em;
 }
 
 .contactRow {
@@ -398,9 +424,15 @@ figure.effect-alpha:hover p {
   width: 80%;
 }
 
+@media (max-width: 700px) {
+  .contactRow {
+    width: 100%;
+  }
+}
+
 .myInfo {
   text-align: left;
-  margin-bottom: 20px;
+  margin-bottom: 2em;
 }
 
 .myInfo a {
@@ -434,9 +466,8 @@ footer {
 
 footer .container {
   color: #0A1612;
-  width: 80%;
   margin-left: auto;
   margin-right: auto;
-  margin: 50px auto 50px auto;
+  margin: 3em auto 3em auto;
   text-align: center;
 }
