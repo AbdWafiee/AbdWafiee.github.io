@@ -206,7 +206,15 @@ a {
 /*Skills and Tools Section*/
 .skillsDiv .row {
   display: flex;
+  display: -webkit-flex;
   flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.skillsDiv .row::before, .skillsDiv .row::after {
+  display: none;
 }
 
 .skillsDiv h1 {
