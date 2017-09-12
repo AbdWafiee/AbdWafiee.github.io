@@ -9,18 +9,15 @@
     <meta name="author" content="Abd Wafiee Abd Wahab">
     <title>Wafiee - Design, Develop, Innovate</title>
 
-    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/952558de6a.js"></script>
     <script src="./js/content_animate.js"></script>
-
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
-    <link rel="stylesheet" href="css/mainStyle.css">
+    <link rel="stylesheet" href="css/style_v2.css">
   </head>
 
   <body>
@@ -46,13 +43,16 @@
     </nav>
 
     <!--Title-->
-    <div class="titleDiv container-fluid text-center">
-      <img src="./img/title.svg" class="img-responsive center-block" alt="title image">
-      <a href="#about" class="button button-responsive">Learn More</a>
+    <div class="titleDiv section container-fluid text-center">
+      <div id="titleContent">
+        <h1>Wafiee</h1>
+        <p>Design - Develop - Innovate</p>
+        <a href="#about" class="button button-responsive">Learn More</a>
+      </div>
     </div>
 
     <!--About Section-->
-    <div class="aboutDiv container-fluid" id="about">
+    <div class="aboutDiv section container-fluid" id="about">
       <div class="row aboutMe">
         <div class="me col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
           <h1>Hi, I'm Wafiee</h1>
@@ -63,52 +63,22 @@
       </div>
       <div class="row slogan">
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-          <img src="./img/design.svg" width="200" height="200" alt="design">
+          <img src="./img/design.svg" width="250" height="250" alt="design">
           <p>In order to better visualise a website and its components, I like to begin with a wireframe. Regardless of purpose, I create and design websites with modern and minimalist aesthetics.</p>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-          <img src="./img/develop.svg"  width="200" height="200" alt="develop">
+          <img src="./img/develop.svg"  width="250" height="250" alt="develop">
           <p>Utilising front-end web frameworks and libraries such as Boostrap, and jQuery, I am able to develop responsive and interactive websites. </p>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-          <img src="./img/innovate.svg" width="200" height="200" alt="innovate">
+          <img src="./img/innovate.svg" width="250" height="250" alt="innovate">
           <p>With the growing landscape of web-frameworks, there is always something new to learn. Whether it's intended for front-end development or back-end development, I can create innovative websites.</p>
-        </div>
-      </div>
-      <hr>
-      <div class="container-fluid education">
-        <h2>Education</h2>
-        <div class="row degree">
-          <div class="school col-xs-12 col-sm-6 col-md-6 col-lg-6">
-            <h4>American University <small>2013 - 2017</small></h4>
-          </div>
-          <div class="description col-xs-12 col-sm-6 col-md-6 col-lg-6">
-            <p>
-              Bachelors of Science, Computer Science.
-            </p>
-            <p>
-              Minor in marketing.
-            </p>
-          </div>
-        </div>
-        <div class="row highSchool">
-          <div class="school col-xs-12 col-sm-6 col-md-6 col-lg-6">
-            <h4>British School of Washington <small>2009 - 2013</small></h4>
-          </div>
-          <div class="description col-xs-12 col-sm-6 col-md-6 col-lg-6">
-            <p>
-              2009 - 2011: IGCSE.
-            </p>
-            <p>
-              2011 - 2013: IB.
-            </p>
-          </div>
         </div>
       </div>
     </div>
 
-    <!--Skills Section-->
-    <div class="skillsDiv container-fluid" id="skills">
+    <!--Skills and Tools Section-->
+    <div class="skillsDiv section container-fluid" id="skills">
       <div class="row">
         <div class="skills col-xs-12 col-sm-12 col-md-6 col-lg-6">
           <div class="container">
@@ -117,62 +87,86 @@
               <div class="icon col-xs-6 col-sm-6 col-md-6 col-lg-3">
                 <img src="./img/skills/html5.svg" height="100" width="100" alt="HTML5 icon" class="img-responsive">
                 <p>HTML(5)</p>
-                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+                <div class="stats">
+                  <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+                </div>
               </div>
               <div class="icon col-xs-6 col-sm-6 col-md-6 col-lg-3">
                 <img src="./img/skills/css3.svg" height="100" width="100" alt="CSS3 icon" class="img-responsive">
                 <p>CSS(3)</p>
-                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+                <div class="stats">
+                  <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+                </div>
               </div>
               <div class="icon col-xs-6 col-sm-6 col-md-6 col-lg-3">
                 <img src="./img/skills/javascript.svg" height="100" width="100" alt="Javascript icon" class="img-responsive">
                 <p>Javascript</p>
-                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span>
+                <div class="stats">
+                  <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span>
+                </div>
               </div>
               <div class="icon col-xs-6 col-sm-6 col-md-6 col-lg-3">
                 <img src="./img/skills/bootstrap.svg" height="100" width="100" alt="Bootstrap icon" class="img-responsive">
                 <p>Bootstrap</p>
-                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+                <div class="stats">
+                  <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+                </div>
               </div>
               <div class="icon col-xs-6 col-sm-6 col-md-6 col-lg-3">
                 <img src="./img/skills/jquery.svg" height="100" width="100" alt="jQuery icon" class="img-responsive">
                 <p>jQuery</p>
-                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span>
+                <div class="stats">
+                  <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span>
+                </div>
               </div>
               <div class="icon col-xs-6 col-sm-6 col-md-6 col-lg-3">
                 <img src="./img/skills/csharp.svg" height="100" width="100" alt="CSharp icon" class="img-responsive">
                 <p>C#</p>
-                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+                <div class="stats">
+                  <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+                </div>
               </div>
               <div class="icon col-xs-6 col-sm-6 col-md-6 col-lg-3">
                 <img src="./img/skills/p5js.svg" height="100" width="100" alt="P5JS icon" class="img-responsive">
                 <p>p5.js</p>
-                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+                <div class="stats">
+                  <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+                </div>
               </div>
               <div class="icon col-xs-6 col-sm-6 col-md-6 col-lg-3">
                 <img src="./img/skills/express.svg" height="100" width="100" alt="Express icon" class="img-responsive">
                 <p>Express</p>
-                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+                <div class="stats">
+                  <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+                </div>
               </div>
               <div class="icon col-xs-6 col-sm-6 col-md-6 col-lg-3">
                 <img src="./img/skills/heroku.svg" height="100" width="100" alt="Heroku icon" class="img-responsive">
                 <p>Heroku</p>
-                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+                <div class="stats">
+                  <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+                </div>
               </div>
               <div class="icon col-xs-6 col-sm-6 col-md-6 col-lg-3">
                 <img src="./img/skills/nodejs.svg" height="100" width="100" alt="NodeJS icon" class="img-responsive">
                 <p>Node.js</p>
-                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+                <div class="stats">
+                  <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+                </div>
               </div>
               <div class="icon col-xs-6 col-sm-6 col-md-6 col-lg-3">
                 <img src="./img/skills/mysql.svg" height="100" width="100" alt="MySQL icon" class="img-responsive">
                 <p>MySQL</p>
-                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+                <div class="stats">
+                  <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+                </div>
               </div>
               <div class="icon col-xs-6 col-sm-6 col-md-6 col-lg-3">
                 <img src="./img/skills/php.svg" height="100" width="100" alt="PHP icon" class="img-responsive">
                 <p>PHP</p>
-                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+                <div class="stats">
+                  <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+                </div>
               </div>
             </div>
           </div>
@@ -184,42 +178,58 @@
               <div class="icon col-xs-6 col-sm-6 col-md-6 col-lg-3">
                 <img src="./img/tools/atom.svg" height="100" width="100" alt="Atom icon" class="img-responsive">
                 <p>Atom</p>
-                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+                <div class="stats">
+                  <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span>
+                </div>
               </div>
               <div class="icon col-xs-6 col-sm-6 col-md-6 col-lg-3">
                 <img src="./img/tools/visualstudio.svg" height="100" width="100" alt="VisualStudio icon" class="img-responsive">
                 <p>Visual Studio</p>
-                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+                <div class="stats">
+                  <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+                </div>
               </div>
               <div class="icon col-xs-6 col-sm-6 col-md-6 col-lg-3">
                 <img src="./img/tools/git.svg" height="100" width="100" alt="Git icon" class="img-responsive">
                 <p>Git</p>
-                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span>
+                <div class="stats">
+                  <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span>
+                </div>
               </div>
               <div class="icon col-xs-6 col-sm-6 col-md-6 col-lg-3">
                 <img src="./img/tools/github.svg" height="100" width="100" alt="GitHub icon" class="img-responsive">
                 <p>GitHub</p>
-                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span>
+                <div class="stats">
+                  <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span>
+                </div>
               </div>
               <div class="icon col-xs-6 col-sm-6 col-md-6 col-lg-3">
                 <img src="./img/tools/inkscape.svg" height="100" width="100" alt="Inkscape icon" class="img-responsive">
                 <p>Inkscape</p>
-                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+                <div class="stats">
+                  <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+                </div>
               </div>
               <div class="icon col-xs-6 col-sm-6 col-md-6 col-lg-3">
                 <img src="./img/tools/gimp.svg" height="100" width="100" alt="Gimp icon" class="img-responsive">
                 <p>GIMP</p>
-                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+                <div class="stats">
+                  <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+                </div>
               </div>
               <div class="icon col-xs-6 col-sm-6 col-md-6 col-lg-3">
                 <img src="./img/tools/blender.svg" height="100" width="100" alt="Blender icon" class="img-responsive">
                 <p>Blender</p>
-                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+                <div class="stats">
+                  <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+                </div>
               </div>
               <div class="icon icon col-xs-6 col-sm-6 col-md-6 col-lg-3">
                 <img src="./img/tools/Unity.svg" height="100" width="100" alt="Unity icon" class="img-responsive">
                 <p>Unity</p>
-                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+                <div class="stats">
+                  <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+                </div>
               </div>
             </div>
           </div>
@@ -228,56 +238,51 @@
     </div>
 
     <!--Projects Section-->
-    <div class="projectsDiv container-fluid" id="projects">
+    <div class="projectsDiv section container-fluid" id="projects">
       <h1>Projects</h1>
       <div class="container-fluid">
         <div class="row">
-          <div class="image col-xs-12 col-sm-6 col-md-6 col-lg-6">
-            <figure class="effect-alpha">
-              <img src="./img/aVR.svg" alt="apartmentviewer">
-              <figcaption>
-                <h2>ApartmentViewer VR</h2>
-                <p>An Android VR virtual tour app for the Samsung Gear VR. Developed using Unity, Blender, and GIMP. Programming done in C#.</p>
-              </figcaption>
-            </figure>
+          <div class="image hover-effect col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <img src="./img/aVR.svg" alt="apartmentviewer">
+            <div class="content">
+              <h2>ApartmentViewer VR</h2>
+              <p>An Android VR virtual tour app for the Samsung Gear VR. Developed using Unity, Blender, and GIMP. Programming done in C#.</p>
+              <a href="#" class="button projectBtn button-responsive">View Code</a>
+            </div>
+          </div>
+          <div class="image hover-effect col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <img src="./img/hVr.svg" alt="homeviewer">
+            <div class="content">
+              <h2>HomeViewer</h2>
+              <p>A web application that allows users to take virtual tours of homes. Developed on a LAMP stack and using Unity, Blender, and Gimp. Programming done in HTML, CSS, Javascript, PHP, MySQL, and C#.</p>
+              <a href="#" class="button projectBtn button-responsive">View Code</a>
+            </div>
+          </div>
+          <div class="image hover-effect col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <img src="./img/rBall.svg" alt="rainbow ball">
+            <div class="content">
+              <h2>Heroku App</h2>
+              <p>A two-player game. Developed using HTML, CSS, p5.js, Express, and Node.js. App built on Heroku. </p>
+              <a href="#" class="button projectBtn button-responsive">View Code</a>
+            </div>
           </div>
           <div class="image col-xs-12 col-sm-6 col-md-6 col-lg-6">
-            <figure class="effect-alpha">
-              <img src="./img/hVr.svg" alt="homeviewer">
-              <figcaption>
-                <h2>HomeViewer</h2>
-                <p>A web application that allows users to take virtual tours of homes. Developed on a LAMP stack and using Unity, Blender, and Gimp. Programming done in HTML, CSS, Javascript, PHP, MySQL, and C#.</p>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="image col-xs-12 col-sm-6 col-md-6 col-lg-6">
-            <figure class="effect-alpha">
-              <img src="./img/rBall.svg" alt="rainbow ball">
-              <figcaption>
-                <h2>Heroku App</h2>
-                <p>A two-player game. Developed using HTML, CSS, p5.js, Express, and Node.js. App built on Heroku. </p>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="image col-xs-12 col-sm-6 col-md-6 col-lg-6">
-            <figure>
-              <img src="./img/pending.svg" alt="pending">
-            </figure>
+            <img src="./img/pending.svg" alt="pending">
           </div>
         </div>
       </div>
     </div>
 
     <!--Contact Section-->
-    <div class="contactDiv container-fluid text-center" id="contact">
+    <div class="contactDiv section container-fluid text-center" id="contact">
       <h1>Contact</h1>
       <h4>Feel free to contact me!</h4>
       <div class="row contactRow">
         <div class="myInfo col-xs-12 col-sm-12 col-md-4 col-lg-4">
           <p>Abd Wafiee Abd Wahab</p>
-          <p><span class="glyphicon glyphicon-map-marker"></span> Bandar Seri Begawan, Brunei</p>
-          <p>Email: a.wafiee@gmail.com</p>
-          <p>Github: <a href="https://github.com/abdwafiee">AbdWafiee</a></p>
+          <p><i class="fa fa-map-marker" aria-hidden="true"></i> Bandar Seri Begawan, Brunei</p>
+          <p><i class="fa fa-envelope" aria-hidden="true"></i> a.wafiee@gmail.com</p>
+          <p><i class="fa fa-github" aria-hidden="true"></i> <a href="https://github.com/abdwafiee">AbdWafiee</a></p>
         </div>
         <div class="contactForm col-xs-12 col-sm-12 col-md-8 col-lg-8">
           <form action="https://formspree.io/a.wafiee@gmail.com" method="POST">
@@ -303,7 +308,7 @@
     <!--Footer-->
     <footer class="container-fluid">
       <div class="container">
-        <p>&copy; Copyright Abd Wafiee Abd Wahab</p>
+        <p><i class="fa fa-copyright" aria-hidden="true"></i> 2017 Abd Wafiee Abd Wahab All Rights Reserved.</p>
       </div>
     </footer>
   </body>

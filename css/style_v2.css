@@ -1,0 +1,388 @@
+/*
+  Theme: Personal website theme.
+  Description: Overall styling for my personal website. Pertains to minimalist and responsive design.
+  Author: Abd Wafiee Abd Wahab
+  Tags: Website, Responsive Design, Mobile, Desktop
+*/
+
+/*General Style*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #F7CE3E;
+  color: #0A1612;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+a {
+  color: #0A1612;
+}
+
+.row {
+  margin: 0 auto;
+}
+
+.aboutDiv h1, .skillsDiv h1, .projectsDiv h1, .contactDiv h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  margin-bottom: 1em;
+  font-size: 40px;
+}
+
+.section {
+  padding: 0;
+  margin: 0;
+}
+
+.button {
+  border: 1px solid #0A1612;
+  padding: 1em 2em;
+  border-radius: 0.5em;
+  text-transform: uppercase;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.button:hover {
+  text-decoration: none;
+  color: white;
+  background: transparent;
+  border-color: white;
+}
+
+.button:focus {
+  text-decoration: none;
+  background: transparent;
+  color: #0A1612;
+}
+
+/*Navbar*/
+.navbar {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 3px;
+}
+
+.nav.navbar-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  float: none;
+}
+
+.navbar-toggle {
+  border: 1px solid white;
+}
+
+.navbar-toggle:hover {
+  background-color: #1A2930;
+}
+
+.navbar-toggle span {
+  border: 1.5px solid white;
+}
+
+.nav li a:focus, .nav li a:hover {
+  text-decoration: none;
+  color: white;
+  background: transparent;
+}
+
+.underline-slide::after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 2px;
+  width: 0;
+  -moz-transition: width .5s ease-in-out, background-color .5s ease-in-out;
+  -webkit-transition: width .5s ease-in-out, background-color .5s ease-in-out;
+  -ms-transition: width .5s ease-in-out, background-color .5s ease-in-out;
+  -o-transition: width .5s ease-in-out, background-color .5s ease-in-out;
+  transition: width .5s ease-in-out, background-color .5s ease-in-out;
+}
+
+.underline-slide:hover::after {
+  width: 100%;
+  background: white;
+}
+
+/*Title Section*/
+.titleDiv {
+  height: 100%;
+}
+
+#titleContent {
+  position: relative;
+  top: 25%;
+}
+
+#titleContent h1, #titleContent p {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+#titleContent h1 {
+  font-weight: 100;
+  font-size: 15em;
+  color: white;
+}
+
+#titleContent p {
+  font-weight: 300;
+  font-size: 3em;
+  margin-top: -0.5em;
+  margin-bottom: 4em;
+}
+
+@media (max-width: 768px) {
+  #titleContent h1 {
+    font-weight: 100;
+    font-size: 10em;
+  }
+
+  #titleContent p {
+    font-weight: 100;
+    font-size: 2em;
+    margin-top: -0.2em;
+  }
+}
+
+/*About Section*/
+.aboutDiv {
+  padding-top: 5em;
+  padding-bottom: 5em;
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  background-color: #1A2930;
+}
+
+.aboutMe, .slogan {
+  width: 90%;
+}
+
+@media (max-width: 768px) {
+  .aboutMe, .slogan {
+    width: 80%;
+  }
+}
+
+.slogan img {
+  margin: 2em 0 3em 0;
+}
+
+/*Skills and Tools Section*/
+.skillsDiv .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skillsDiv h1 {
+  margin-bottom: 1.5em;
+}
+
+.skills, .software {
+  padding-top: 2.5em;
+  padding-bottom: 3em;
+}
+
+.skills {
+  background-color: #F7CE3E;
+}
+
+.software {
+  background-color: #C5C1C0;
+}
+
+.skillsDiv .container {
+  width: 90%;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .skillsDiv .container {
+    width: 80%;
+  }
+}
+
+.icon {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  -moz-transition: box-shadow 0.5s ease-in-out;
+  -webkit-transition: box-shadow 0.5s ease-in-out;
+  -ms-transition: box-shadow 0.5s ease-in-out;
+  -o-transition: box-shadow 0.5s ease-in-out;
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+.icon:hover {
+  box-shadow: 0 0 1em #1A2930;
+}
+
+.skillsDiv img {
+  margin: 0 auto;
+}
+
+.skillsDiv p {
+  border-bottom: 1px solid #1A2930;
+  margin: 0.8em 0 1em 0;
+  font-size: 1.5em;
+}
+
+.stats {
+  display: none;
+}
+
+/*Projects Section*/
+.projectsDiv {
+  background-color: #1A2930;
+  text-align: center;
+  color: white;
+}
+
+.projectsDiv .container-fluid {
+  padding: 0;
+}
+
+.projectsDiv h1 {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.projectsDiv p {
+  margin: 2em 0 2em 0;
+}
+
+.projectBtn {
+  color: #F7CE3E;
+  border-color: #F7CE3E;
+}
+
+.image {
+  overflow: hidden;
+  padding: 0;
+}
+
+.image img {
+  width: 100%;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hover-effect img, .hover-effect .content {
+  -moz-transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -ms-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.hover-effect .content {
+  opacity: 0;
+}
+
+.hover-effect:hover img {
+  opacity: 0.2;
+}
+
+.hover-effect:hover .content {
+  opacity: 1;
+}
+
+/*Contact Section*/
+.contactDiv {
+  background-color: #C5C1C0;
+  text-align: center;
+  color: white;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.contactDiv h1 {
+  margin-bottom: 0;
+}
+
+.contactDiv h4 {
+  margin-bottom: 3em;
+}
+
+.contactRow {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+@media (max-width: 768px) {
+  .contactRow {
+    width: 90%;
+  }
+}
+
+.myInfo {
+  text-align: left;
+  margin-bottom: 2em;
+}
+
+.myInfo a {
+  text-decoration: underline;
+  color: #1A2930;
+  -moz-transition: color 0.5s ease-in-out;
+  -webkit-transition: bcolor 0.5s ease-in-out;
+  -ms-transition: color 0.5s ease-in-out;
+  -o-transition: color 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out;
+}
+
+.myInfo a:hover {
+  color: white;
+}
+
+.contactForm {
+  color: #1A2930;
+  margin-bottom: 2em;
+}
+
+.form-control {
+  border-color: #F7CE3E;
+  background-color: white;
+  color: #1A2930;
+}
+
+.contactDiv textarea {
+  resize: none;
+}
+
+.contactBtn {
+  color: #F7CE3E;
+  border-color: #F7CE3E;
+  background-color: transparent;
+}
+
+/*Footer*/
+footer .container {
+  color: #0A1612;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 3em auto 3em auto;
+  text-align: center;
+}

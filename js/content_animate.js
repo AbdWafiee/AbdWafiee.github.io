@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   //Smooth scrolling
-  var $root = $('html, body');
+  var $root = $("html, body");
   $(".navbar a, .titleDiv a, .education a").on('click', function(e) {
     if (this.hash !== "") {
 
@@ -20,5 +20,10 @@ $(document).ready(function() {
         }
       );
     }
+  });
+
+  $(".icon").on("click", function(e) {
+    $(this).children(".stats").slideToggle(500);
+    e.preventDefault();
   });
 });
