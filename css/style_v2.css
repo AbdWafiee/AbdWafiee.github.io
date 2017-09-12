@@ -66,7 +66,6 @@ a {
 .button:focus {
   text-decoration: none;
   background: transparent;
-  color: #0A1612;
 }
 
 /*Navbar*/
@@ -175,6 +174,11 @@ a {
   }
 }
 
+.titleBtn:focus {
+  color: #0A1612;
+  border-color: #0A1612;
+}
+
 /*About Section*/
 .aboutDiv {
   padding-top: 5em;
@@ -229,7 +233,7 @@ a {
 
 @media (max-width: 768px) {
   .skillsDiv .container {
-    width: 80%;
+    width: 100%;
   }
 }
 
@@ -286,6 +290,11 @@ a {
   border-color: #F7CE3E;
 }
 
+.projectBtn:focus {
+  color: #F7CE3E;
+  border-color: #F7CE3E;
+}
+
 .image {
   overflow: hidden;
   padding: 0;
@@ -314,11 +323,11 @@ a {
   }
 
   .content h2 {
-    font-size: 0.7em;
+    font-size: 0.9em;
   }
 
   .content p, .content a {
-    font-size: 0.6em;
+    font-size: 0.7em;
   }
 }
 
@@ -406,6 +415,12 @@ a {
 }
 
 .contactBtn {
+  color: #F7CE3E;
+  border-color: #F7CE3E;
+  background-color: transparent;
+}
+
+.contactBtn:focus {
   color: #F7CE3E;
   border-color: #F7CE3E;
   background-color: transparent;
