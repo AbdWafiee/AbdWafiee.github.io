@@ -436,6 +436,18 @@ a {
   background-color: transparent;
 }
 
+#nBox {
+  padding-left: 0;
+}
+
+#eBox {
+  padding-right: 0;
+}
+
+#msgBox {
+  padding: 0;
+}
+
 /*Footer*/
 footer .container {
   color: #0A1612;
