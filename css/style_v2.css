@@ -436,15 +436,15 @@ a {
   background-color: transparent;
 }
 
-#nBox {
+.nBox {
   padding-left: 0;
 }
 
-#eBox {
+.eBox {
   padding-right: 0;
 }
 
-#msgBox {
+.msgBox {
   padding: 0;
 }
 
