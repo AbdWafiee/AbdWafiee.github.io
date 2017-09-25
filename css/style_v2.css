@@ -49,9 +49,7 @@ a {
   padding: 1em 2em;
   border-radius: 0.5em;
   text-transform: uppercase;
-  -moz-transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
@@ -78,9 +76,14 @@ a {
 }
 
 .nav.navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   float: none;
 }
 
@@ -108,9 +111,7 @@ a {
   margin: auto;
   height: 2px;
   width: 0;
-  -moz-transition: width .5s ease-in-out, background-color .5s ease-in-out;
   -webkit-transition: width .5s ease-in-out, background-color .5s ease-in-out;
-  -ms-transition: width .5s ease-in-out, background-color .5s ease-in-out;
   -o-transition: width .5s ease-in-out, background-color .5s ease-in-out;
   transition: width .5s ease-in-out, background-color .5s ease-in-out;
 }
@@ -205,12 +206,15 @@ a {
 
 /*Skills and Tools Section*/
 .skillsDiv .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  display: -webkit-flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  -webkit-justify-content: center;
-  justify-content: center;
+  -ms-justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .skillsDiv .row::before, .skillsDiv .row::after {
@@ -248,11 +252,11 @@ a {
 .icon {
   padding-top: 1.5em;
   padding-bottom: 1.5em;
-  -moz-transition: box-shadow 0.5s ease-in-out;
-  -webkit-transition: box-shadow 0.5s ease-in-out;
-  -ms-transition: box-shadow 0.5s ease-in-out;
+  -webkit-transition: -webkit-box-shadow 0.5s ease-in-out;
+  transition: -webkit-box-shadow 0.5s ease-in-out;
   -o-transition: box-shadow 0.5s ease-in-out;
   transition: box-shadow 0.5s ease-in-out;
+  transition: box-shadow 0.5s ease-in-out, -webkit-box-shadow 0.5s ease-in-out;
 }
 
 .icon:hover {
@@ -316,7 +320,9 @@ a {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 @media (max-width: 768px) {
@@ -340,9 +346,7 @@ a {
 }
 
 .hover-effect img, .hover-effect .content {
-  -moz-transition: opacity 0.5s ease-in-out;
   -webkit-transition: opacity 0.5s ease-in-out;
-  -ms-transition: opacity 0.5s ease-in-out;
   -o-transition: opacity 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out;
 }
@@ -396,9 +400,7 @@ a {
 .myInfo a {
   text-decoration: underline;
   color: #1A2930;
-  -moz-transition: color 0.5s ease-in-out;
-  -webkit-transition: bcolor 0.5s ease-in-out;
-  -ms-transition: color 0.5s ease-in-out;
+  -webkit-transition: color 0.5s ease-in-out;
   -o-transition: color 0.5s ease-in-out;
   transition: color 0.5s ease-in-out;
 }
