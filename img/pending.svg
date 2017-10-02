@@ -28,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="478.65789"
-     inkscape:cy="291.61702"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="286.11976"
+     inkscape:cy="181.33931"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -54,7 +54,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -63,42 +63,45 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-138.25)">
+    <rect
+       style="fill:#f7ce3e;fill-opacity:1;stroke:#f7ce3e;stroke-width:0.32694066;stroke-opacity:1"
+       id="rect2176"
+       width="264.52097"
+       height="158.68764"
+       x="0.031177096"
+       y="138.28111" />
     <path
-       style="opacity:1;fill:#f7ce3e;fill-opacity:1;stroke:none;stroke-width:0.62900001;stroke-miterlimit:4;stroke-dasharray:none"
-       d="M -26.058334,126.87292 H 302.01873 c 3.15318,0 5.69166,1.53405 5.69166,3.43958 v 180.44583 c 0,1.90553 -2.53848,3.43958 -5.69166,3.43958 H -26.058334 c -3.153182,0 -5.691664,-1.53405 -5.691664,-3.43958 V 130.3125 c 0,-1.90553 2.538482,-3.43958 5.691664,-3.43958 z"
-       id="rect4519" />
-    <path
-       style="opacity:1;fill:#5187a0;fill-opacity:1;stroke:none;stroke-width:0.71022701;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 33.34439,201.08167 v -53.74953 h 99.20845 99.20844 v 53.74953 53.74953 H 132.55284 33.34439 Z"
+       style="opacity:1;fill:#5187a0;fill-opacity:1;stroke:none;stroke-width:0.60382134;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 48.187114,202.95089 v -45.69682 h 84.345116 84.34511 v 45.69682 45.69681 H 132.53223 48.187114 Z"
        id="path4504"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;fill:#0a1612;fill-opacity:1;stroke:none;stroke-width:1.03769767;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 35.465512,141.63528 c -3.51686,0 -6.348093,3.53055 -6.348093,7.91606 v 113.76978 c 0,4.38549 2.831233,7.91605 6.348093,7.91605 H 230.06386 c 3.51688,0 6.34813,-3.53056 6.34813,-7.91605 V 149.55134 c 0,-4.38551 -2.83125,-7.91606 -6.34813,-7.91606 z m -0.159656,6.75589 H 230.22352 V 253.82575 H 35.305856 Z"
+       style="opacity:1;fill:#0a1612;fill-opacity:1;stroke:none;stroke-width:0.88223058;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 49.810327,152.8606 c -2.989966,0 -5.397026,3.00161 -5.397026,6.73008 v 96.72488 c 0,3.72846 2.40706,6.73007 5.397026,6.73007 H 215.25409 c 2.98999,0 5.39706,-3.00161 5.39706,-6.73007 v -96.72488 c 0,-3.72847 -2.40707,-6.73008 -5.39706,-6.73008 z m -0.135736,5.74373 H 215.38983 v 89.63845 H 49.674591 Z"
        id="rect4485"
        inkscape:connector-curvature="0" />
     <rect
-       style="opacity:1;fill:#0a1612;fill-opacity:1;stroke:none;stroke-width:0.83675426;stroke-miterlimit:4;stroke-dasharray:none"
+       style="opacity:1;fill:#0a1612;fill-opacity:1;stroke:none;stroke-width:0.71139234;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect4495"
-       width="79.972305"
-       height="9.664403"
-       x="92.778694"
-       y="271.73279"
-       rx="5.6916637"
-       ry="3.4395862"
+       width="67.990913"
+       height="8.2164888"
+       x="98.536766"
+       y="263.46701"
+       rx="4.838943"
+       ry="2.9242699"
        inkscape:export-xdpi="156.09756"
        inkscape:export-ydpi="156.09756" />
     <path
-       style="opacity:1;fill:#0a1612;fill-opacity:1;stroke:none;stroke-width:0.65670079;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 92.534056,282.38843 h 79.972354 l 7.58145,11.64684 H 85.441709 Z"
+       style="opacity:1;fill:#0a1612;fill-opacity:1;stroke:none;stroke-width:0.55831438;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 98.328837,272.52622 h 67.990953 l 6.4456,9.90192 H 92.29906 Z"
        id="rect4584"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc"
        inkscape:export-xdpi="156.09756"
        inkscape:export-ydpi="156.09756" />
     <path
-       style="opacity:1;fill:#000000;fill-opacity:0;stroke:none;stroke-width:0.69926971;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 35.465197,201.08167 v -52.62709 h 97.382683 97.38282 v 52.62709 52.6271 H 132.84788 35.465197 Z"
+       style="opacity:1;fill:#000000;fill-opacity:0;stroke:none;stroke-width:0.59450567;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 49.739284,203.40078 v -44.74254 h 82.792886 82.793 v 44.74254 44.74254 h -82.793 -82.792886 z"
        id="path4498"
        inkscape:connector-curvature="0" />
     <g
@@ -119,26 +122,26 @@
            y="168" /></flowRegion><flowPara
          id="flowPara4520" /></flowRoot>    <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:11.76566505px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.29414165"
-       x="56.668709"
-       y="208.38792"
+       style="font-style:normal;font-weight:normal;font-size:10.00294209px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.25007358"
+       x="68.813042"
+       y="217.16536"
        id="text4524"
-       transform="scale(1.0032556,0.99675495)"><tspan
+       transform="scale(1.0032556,0.99675496)"><tspan
          sodipodi:role="line"
          id="tspan4522"
-         x="56.668709"
-         y="208.38792"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:25.1000843px;font-family:Lato;-inkscape-font-specification:'Lato Light';fill:#ffffff;stroke-width:0.29414165">Coming Soon!</tspan></text>
+         x="68.813042"
+         y="217.16536"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:21.33960915px;font-family:Lato;-inkscape-font-specification:'Lato Light';fill:#ffffff;stroke-width:0.25007358">Coming Soon!</tspan></text>
     <ellipse
-       style="opacity:1;fill:#c5c1c0;fill-opacity:1;stroke:none;stroke-width:0.27362734;stroke-miterlimit:4;stroke-dasharray:none"
+       style="opacity:1;fill:#c5c1c0;fill-opacity:1;stroke:none;stroke-width:0.2326327;stroke-miterlimit:4;stroke-dasharray:none"
        id="path4528"
-       cx="132.76456"
-       cy="262.13803"
-       rx="5.3117862"
-       ry="5.277369" />
+       cx="132.53223"
+       cy="255.30972"
+       rx="4.5159783"
+       ry="4.4867177" />
     <g
        aria-label="&gt;-"
-       transform="matrix(0.45555281,0,0,0.50595935,-41.638067,97.92542)"
+       transform="matrix(0.38730223,0,0,0.4301569,-13.604422,115.69932)"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        id="flowRoot4506">
       <path
@@ -154,7 +157,7 @@
     </g>
     <g
        aria-label="W"
-       transform="matrix(0.11547361,0,0,0.11472541,162.86523,234.13934)"
+       transform="matrix(0.09817344,0,0,0.09753733,158.1231,231.50577)"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0a1612;fill-opacity:1;stroke:none"
        id="flowRoot4530">
       <path
@@ -163,5 +166,17 @@
          id="path4516"
          inkscape:connector-curvature="0" />
     </g>
+    <text
+       transform="scale(1.0032556,0.99675496)"
+       id="text2139"
+       y="199.11127"
+       x="106.33775"
+       style="font-style:normal;font-weight:normal;font-size:10.00294209px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.25007358"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:21.33960915px;font-family:Lato;-inkscape-font-specification:'Lato Light';fill:#ffffff;stroke-width:0.25007358"
+         y="199.11127"
+         x="106.33775"
+         id="tspan2137"
+         sodipodi:role="line">More</tspan></text>
   </g>
 </svg>
