@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="312.25108"
-     inkscape:cy="270.99235"
+     inkscape:zoom="0.5"
+     inkscape:cx="405.99184"
+     inkscape:cy="250.2852"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -38,7 +38,7 @@
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      units="px"
-     inkscape:showpageshadow="false" />
+     inkscape:showpageshadow="true" />
   <metadata
      id="metadata5123">
     <rdf:RDF>
@@ -61,8 +61,8 @@
        id="rect5671"
        width="264.8479"
        height="159.01459"
-       x="-0.14974275"
-       y="137.92484" />
+       x="-0.26521152"
+       y="137.98622" />
     <g
        transform="matrix(5.2100004,0,0,5.2100004,63.43199,-1263.347)"
        id="layer1-5"
